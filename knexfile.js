@@ -9,4 +9,11 @@ module.exports = {
     },
     seeds: { directory: './database/seeds' },
   },
+
+  testing: {
+    client: "squlite3",
+    connection: {
+      filename: "./database/auth.db3",
+    }
+  }
 };
